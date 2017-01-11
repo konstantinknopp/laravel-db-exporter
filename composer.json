@@ -14,7 +14,7 @@
         "illuminate/support": "4.*|5.*"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Unikat\\DbExporter\\": "src/DbExporter"
         }
     },
