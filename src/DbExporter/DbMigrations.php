@@ -1,8 +1,8 @@
-<?php namespace Nwidart\DbExporter;
+<?php namespace Unikat\DbExporter;
 
 use Config;
 use File;
-use Nwidart\DbExporter\Exceptions\InvalidDatabaseException;
+use Unikat\DbExporter\Exceptions\InvalidDatabaseException;
 use Str;
 
 class DbMigrations extends DbExporter

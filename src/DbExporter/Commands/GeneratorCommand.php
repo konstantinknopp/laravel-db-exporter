@@ -1,4 +1,4 @@
-<?php namespace Nwidart\DbExporter\Commands;
+<?php namespace Unikat\DbExporter\Commands;
 
 use Illuminate\Console\Command;
 use Config;

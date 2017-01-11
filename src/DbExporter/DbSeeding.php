@@ -1,4 +1,4 @@
-<?php namespace Nwidart\DbExporter;
+<?php namespace Unikat\DbExporter;
 
 use Config, DB, Str, File;
 

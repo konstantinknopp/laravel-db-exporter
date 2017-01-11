@@ -1,6 +1,6 @@
-<?php namespace Nwidart\DbExporter\Commands;
+<?php namespace Unikat\DbExporter\Commands;
 
-use Nwidart\DbExporter\Server;
+use Unikat\DbExporter\Server;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 use SSH;

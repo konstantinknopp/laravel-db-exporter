@@ -1,4 +1,4 @@
-<?php namespace Nwidart\DbExporter;
+<?php namespace Unikat\DbExporter;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Config;
@@ -143,7 +143,7 @@ class DbExportHandlerServiceProvider extends ServiceProvider
         $this->app->booting(function()
         {
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-            $loader->alias('DbExportHandler', 'Nwidart\DbExporter\Facades\DbExportHandler');
+            $loader->alias('DbExportHandler', 'Unikat\DbExporter\Facades\DbExportHandler');
 
             // some users migrating from 5.0 don't have Str alias registered
             if (! class_exists('\Str')) {

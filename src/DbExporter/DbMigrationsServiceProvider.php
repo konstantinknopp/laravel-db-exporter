@@ -1,4 +1,4 @@
-<?php namespace Nwidart\DbExporter;
+<?php namespace Unikat\DbExporter;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Config;
@@ -40,7 +40,7 @@ class DbMigrationsServiceProvider extends ServiceProvider {
         $this->app->booting(function()
             {
                 $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-                $loader->alias('DbMigrations', 'Nwidart\DbExporter\Facades\DbMigrations');
+                $loader->alias('DbMigrations', 'Unikat\DbExporter\Facades\DbMigrations');
             });
     }
 

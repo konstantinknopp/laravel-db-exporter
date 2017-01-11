@@ -1,4 +1,4 @@
-<?php namespace Nwidart\DbExporter\Exceptions;
+<?php namespace Unikat\DbExporter\Exceptions;
 
 use Exception;
 

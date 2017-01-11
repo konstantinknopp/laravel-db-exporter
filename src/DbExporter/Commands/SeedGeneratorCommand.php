@@ -1,8 +1,8 @@
-<?php namespace Nwidart\DbExporter\Commands;
+<?php namespace Unikat\DbExporter\Commands;
 
 
-use Nwidart\DbExporter\DbExporter;
-use Nwidart\DbExporter\DbExportHandler;
+use Unikat\DbExporter\DbExporter;
+use Unikat\DbExporter\DbExportHandler;
 use Symfony\Component\Console\Input\InputOption;
 use Config, Str;
 
@@ -13,7 +13,7 @@ class SeedGeneratorCommand extends GeneratorCommand
     protected $description = 'Export your database table data to a seed class.';
 
     /**
-     * @var \Nwidart\DbExporter\DbExportHandler
+     * @var \Unikat\DbExporter\DbExportHandler
      */
     protected $handler;
 

@@ -1,7 +1,7 @@
-<?php namespace Nwidart\DbExporter\Commands;
+<?php namespace Unikat\DbExporter\Commands;
 
-use Nwidart\DbExporter\DbExporter;
-use Nwidart\DbExporter\DbExportHandler;
+use Unikat\DbExporter\DbExporter;
+use Unikat\DbExporter\DbExportHandler;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 use Config;
@@ -12,7 +12,7 @@ class MigrationsGeneratorCommand extends GeneratorCommand
 
     protected $description = 'Export your database to migrations.';
     /**
-     * @var \Nwidart\DbExporter\DbExportHandler
+     * @var \Unikat\DbExporter\DbExportHandler
      */
     protected $handler;
 
