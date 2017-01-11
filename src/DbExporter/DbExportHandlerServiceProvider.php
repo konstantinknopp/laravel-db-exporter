@@ -24,7 +24,7 @@ class DbExportHandlerServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->publishes([__DIR__.'/../../config/config.php' => config_path('db-exporter.php')], 'config');
+        $this->publishes([__DIR__.'/../config/config.php' => config_path('db-exporter.php')], 'config');
     }
 
     public function register()
