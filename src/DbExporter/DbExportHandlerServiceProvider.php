@@ -43,7 +43,7 @@ class DbExportHandlerServiceProvider extends ServiceProvider
 
         // Default config
         $this->mergeConfigFrom(
-            __DIR__.'/../../config/config.php', 'db-exporter'
+            __DIR__.'/../config/config.php', 'db-exporter'
         );
     }
 
